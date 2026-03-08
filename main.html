@@ -8,8 +8,9 @@
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 <!-- font awesome  -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet" href="./style.css">
 </head>
-<body class="bg-[#F8FAFC]">
+<body class="">
     <!-- navber  -->
 <div class="navbar py-4 px-16 flex justify-between bg-base-100 shadow-sm">
   <div class="flex items-center">
@@ -19,7 +20,7 @@
   <div class="flex items-center gap-10">
     <div class="">
         <i class="fa-solid fa-magnifying-glass"></i>
-    <input  type="text"  placeholder="Search issues..." ; class="input input-bordered w-24 md:w-auto" />
+   <input type="text" placeholder="Search issues..." class="input input-bordered w-24 md:w-auto" />
     </div>
    
 
@@ -32,17 +33,17 @@
 </div>
 <main class="mt-15 ">
     <!-- all open close btn  -->
-    <div class="w-[80%] bg-[#FFFFFF] p-8 rounded mx-auto">
+    <div class="w-[80%] p-8 rounded mx-auto">
 <button class="btn btn-primary">All</button>
 <button class="btn btn-primary">Open</button>
 <button class="btn btn-primary">Close</button>
     </div>
 <!-- issue body  -->
-    <div class="w-[80%] bg-[#FFFFFF] p-8 rounded mx-auto">
+    <div class="w-11/12  p-2 gap-1 rounded mx-auto">
         <!-- first part  -->
 <div class="flex justify-between">
 <div class="flex">
-    <img src="./B13-A5-Github-Issue-Tracker/assets/Aperture.png" alt="">
+    <img src="./assets/Aperture.png" alt="">
     <div>
         <h2>50 Issues</h2>
         <p>Track and manage your project issues</p>
@@ -56,12 +57,12 @@
 </div>
 </div>
 
-<!-- seconed part  -->
  <!-- api bosbe  -->
- <div>
-
- </div>
+ <div id="cetagory-container" class="grid grid-cols-4 rounded-2xl space-x-2 gap-10 bg-amber-100">
     </div>
+
+</div>
+
 </main>
 
 
